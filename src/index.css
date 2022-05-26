@@ -9,3 +9,33 @@ body,
   height: 100%;
   width: 100%;
 }
+
+#root {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 1px solid red;
+}
+
+.App {
+  border: 1px solid blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+}
+
+.NavBar {
+  grid-column: 2 / 4;
+  border: 1px solid blue;
+  margin: auto;
+}
+
+.UserProfile {
+  border: 1px solid blue;
+  grid-column: 2 / 3;
+  margin: auto;
+}
+
+.Contacts {
+  border: 1px solid blue;
+  grid-column: 3 / 4;
+  margin: auto;
+}
